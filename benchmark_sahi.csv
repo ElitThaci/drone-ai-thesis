@@ -1,0 +1,5 @@
+method,patches,avg_ms,min_ms,max_ms,std_ms,avg_fps
+Normal,1,12.51,12.37,12.82,0.11,79.9
+SAHI_6patch,9,101.92,100.9,107.43,1.84,9.8
+SAHI_9patch,9,101.69,100.72,105.75,1.48,9.8
+SAHI_12patch,16,218.84,218.02,223.11,1.01,4.6
