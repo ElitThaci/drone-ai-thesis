@@ -1,0 +1,4 @@
+engine,avg_latency_ms,min_latency_ms,max_latency_ms,std_ms,avg_fps
+FP32,17.45,17.11,22.61,0.79,57.3
+FP16,12.54,12.29,14.71,0.31,79.8
+INT8,11.24,11.02,13.65,0.25,89.0
