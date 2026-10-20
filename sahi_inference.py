@@ -85,13 +85,15 @@ class SAHIDetector:
 
         for (x1, y1, x2, y2) in slices:
             patch   = frame[y1:y2, x1:x2]
-            results = self.model(
+            results = self.model.predict(
                 patch,
                 conf=self.conf,
                 iou=self.iou,
                 classes=classes,
                 device=0,
-                verbose=False
+                verbose=False,
+                stream=False,
+		save=False
             )
 
             for box, conf, cls in zip(
